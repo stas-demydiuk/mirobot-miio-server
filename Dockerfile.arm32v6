@@ -6,6 +6,8 @@ ENV ROBOT_TOKEN "f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0"
 
 EXPOSE 22222
 
+COPY qemu-arm-static /usr/bin
+
 RUN apk add --no-cache \
      git \
      gcc \
