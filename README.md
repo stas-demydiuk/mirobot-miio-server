@@ -15,6 +15,8 @@ docker run -d -p 22222:22222 -e "ROBOT_IP=<your robot ip>" -e "ROBOT_TOKEN=<your
 
 22222 can be another port (you change `-p 22222:22222` to `-p 3000:22222` to have 3000 out of the container for example).
 
+You can get the token of your device using this [extractor](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor)
+
 ### Docker compose file example
 
 ```
